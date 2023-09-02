@@ -1,0 +1,18 @@
+gnorar directorios y archivos generados automáticamente
+/vendor/
+/app/cache/
+/app/logs/
+/var/
+/config/local.yml
+
+# Ignorar archivos de configuración locales
+/config/settings.inc.php
+
+# Ignorar archivos de respaldo y temporales
+*~
+*.swp
+*.bak
+
+# Ignorar archivos y directorios de carga
+/upload/
+/download/
